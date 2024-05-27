@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Departamento de Investigacion Criminal - DIC</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="images/logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- Load jQuery Validate plugin -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.min.js"></script>
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show  position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark text-white d-none d-lg-flex">
+        <div class="container py-3">
+            <div class="d-flex align-items-center" style="float: left; width: 60px;">
+                <a href="index.html">
+                    <img class="" src="images/logo.png" alt="" style="width: 100%;">
+                </a>
+                
+            </div>
+            <div class="d-flex align-items-center" style="margin-top: auto; margin-bottom: auto; margin: auto; margin-left: 5px; width: 50%; padding: 10px;">
+                <a href="index.html">
+                    <h2 class="text-white fw-bold m-0">Departamento de Investigacion Criminal</h2>
+                </a>
+                
+            </div>
+        </div>
+        
+
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg  navbar-light p-lg-0">
+                <div class="d-flex align-items-center navbar-brand d-lg-none" style="float: left; width: 60px;">
+                    <a href="index.html">
+                        <img class="" src="images/logo.png" alt="" style="width: 100%;">
+                    </a>
+                    
+                </div>
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <h1 class="fw-bold text-dark m-0">DIC</h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon" style="color: white;"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="news.html" class="nav-item nav-link">NEWS</a>
+                        <a href="about.html" class="nav-item nav-link">ABOUT</a>
+                        <a href="wanted.html" class="nav-item nav-link">MOST WANTED</a>
+                        <a href="missing.html" class="nav-item nav-link">MISSING PEOPLE</a>
+                        <a href="investigate.html" class="nav-item nav-link">WHAT WE INVESTIGATE</a>
+                    </div>
+                    <div class="ms-auto d-lg-block">
+                        <button class="btn btn-danger rounded-pill py-2 px-3" data-bs-toggle="modal" data-bs-target="#addReportsModal">SUBMIT A TIP</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid px-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner" id="breaking-news">
+                <div class="carousel-item active">
+                    <img class="w-100" src="images/crime-1.png" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-7 text-start">
+                                    <p class="fs-4 text-white animated slideInRight">Departamento de Investigacion Criminal</p>
+                                    <h1 class="display-1 text-white mb-4 animated slideInRight"><strong>We are the first line of defense.</strong></h1>
+                                    <a href="about.html"
+                                        class="btn btn-dark rounded-pill py-3 px-5 animated slideInRight">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Investigate Start -->
+    <div class="container-xxl pt-5">
+        <div class="container">
+            <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
+                style="max-width: 500px;">
+                <p class="fs-5 fw-medium text-dark">WHAT WE INVESTIGATE</p>
+                <h1 class="display-6 mb-5">Training, Tactics, Science, Technology, Intelligence</h1>
+            </div>
+            <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="images/terrorism1.png" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="investigate.html#terrorism"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <a class="d-block h5 text-dark" href="investigate.html#terrorism">Terrorism</a>
+                    </div>
+                </div>
+                <div class="project-item mb-5 active">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="images/cyber-crime.png" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="investigate.html#cyber-crime"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <a class="d-block h5 text-dark" href="investigate.html#cyber-crime">Cyber Crime</a>
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="images/drug-trafficking.png" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="investigate.html#drug-trafficking"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <a class="d-block h5 text-dark" href="investigate.html#drug-trafficking">Drug Trafficking</a>
+                    </div>
+                </div>
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="images/organized-crime.png" alt="">
+                        <div class="project-overlay">
+                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="investigate.html#organized-crime"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <a class="d-block h5 text-dark" href="investigate.html#organized-crime">Organized Crime</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Investigate End -->
+
+    <!-- About Start -->
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-12 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="bg-dark rounded-top rounded-bottom p-5 mt-lg-5" style="background-image: url(images/bg1.png);">
+                        <p class="fs-5 fw-medium text-white">I want to ...</p>
+                        <h1 class="display-6 mb-6 text-light">Your report could save someone's life. Please do it and save a life.</h1>
+                        <br>
+                        <div class="row g-5 pt-2 mb-5">
+                            <div class="col-sm-6">
+                                <img class="img-fluid btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;" src="images/report.png" alt="">
+                                <h5 class="mb-3 text-light">Report information</h5>
+                                <span class="text-white-50">Report any form of criminal activiry, threats and other essentials.</span>
+                                <br><br><button class="btn btn-danger rounded-pill py-3 px-5" data-bs-toggle="modal" data-bs-target="#addReportsModal">Report information</button>
+
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="img-fluid btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;" src="images/more-1.png" alt="">
+                                <h5 class="mb-3 text-light">Read more</h5>
+                                <span class="text-white-50">Read more about our mission, vision, prorities, budget and work.</span>
+                                <br><br><a class="btn btn-light rounded-pill py-3 px-5" href="about.html">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Most wanted Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium text-danger">WANTED PEOPLE</p>
+                <h1 class="display-6 mb-5">Recently added people from the Wanted list</h1>
+            </div>
+            <div class="row g-4 justify-content-center" id="recently-wanted">
+                <div class="spinner-border" style="margin: auto; width: 100px; height: 100px;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Most wanted  End -->  
+
+    <!-- Most wanted Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium text-info">MISSING PEOPLE</p>
+                <h1 class="display-6 mb-5">Recently added people from the Missing list</h1>
+            </div>
+            <div class="row g-4 justify-content-center" id="missing-people">
+                <div class="spinner-border" style="margin: auto; width: 100px; height: 100px;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Most wanted  End --> 
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6 col-md-6">
+                    <div class="align-items-center" style=" width: 100px;">
+                        <a href="index.html">
+                            <img class="" src="images/logo.png" alt="" style="width: 100%;">
+                        </a>
+                        
+                    </div><br>
+                    <h4 class="text-white mb-4">Departamento de Investigacion Criminal</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Calle Miguel Ángel 528010 Madrid, España</p>
+                    <p class="mb-2"><i class="fa fa-address-book me-3"></i>Dirección General</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@dic.gov.es</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-4">Newsletter</h4>
+                    <form id="addNewsletterForm">
+                        <div class="position-relative w-100">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5 required" name="email" type="email"
+                                placeholder="Your email">
+                            <button type="submit"
+                                class="btn btn-light py-2 position-absolute top-0 end-0 mt-2 me-2">Subscribe</button>
+                        </div>
+                    </form>
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-light rounded-circle me-2" href="https://www.twitter.com/dicgov"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-light rounded-circle me-2" href="https://www.facebook.com/dicgov"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-light rounded-circle me-2" href="https://www.linkedin.com/company/dicgov"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="fw-medium text-light" href="#">Departamento de Investigacion Criminal</a>, All Right Reserved.
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-danger btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+            
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/reports-service-index.js"></script>
+    <script src="js/newsletter-service.js"></script>
+    <script src="js/news-service-index.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    
+    <script>
+        $.ajax({
+            url: 'rest/news',
+            type: 'GET',
+            
+            success: function(data) {
+                $("#breaking-news").html("");
+                var html = "";
+                var a = "";
+                if (data.length > 5) {
+                    a = data.length - 5;
+                } else {
+                    a = 0;
+                }
+
+                if (Array.isArray(data)) {
+                    data.sort(function(a, b) {
+                        var dateA = new Date(a.date);
+                        var dateB = new Date(b.date);
+                        return dateA - dateB;
+                    });
+                }
+                
+                for (let i = data.length - 1; i>=a; i--) {
+                    if (i == data.length -1) {
+                        html += `
+                        <div class="carousel-item active">
+                            <img class="w-100" src="images/news/`+data[i].image+`" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content- bottom-50">
+                                        <div class="col-lg-12 text-start">
+                                            <h1 class="display-4 text-white mb-4 animated slideInRight"><strong><span class="text-danger"><strong>BREAKING </strong></span>`+data[i].title+`</strong></h1>
+                                            <button class="btn btn-dark rounded-pill py-3 px-5 animated slideInRight" onclick="NewsServiceIndex.list_by_id(` + data[i].id + `)">See More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        `;
+                    } else {
+                        html += `
+                        <div class="carousel-item">
+                            <img class="w-100" src="images/news/`+data[i].image+`" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content- bottom-50">
+                                        <div class="col-lg-12 text-start">
+                                            <h1 class="display-4 text-white mb-4 animated slideInRight"><strong>`+data[i].title+`</strong></h1>
+                                            <button class="btn btn-dark rounded-pill py-3 px-5 animated slideInRight" onclick="NewsServiceIndex.list_by_id(` + data[i].id + `)">See More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        `;
+                    }
+                    
+                    $("#breaking-news").html(html);
+                }
+            }
+        });
+
+        $.ajax({
+            url: 'rest/wanted',
+            type: 'GET',
+            beforeSend: function (xhr) {
+                xhr.setRequestHeader("Authorization", localStorage.getItem("token"));
+              },
+            success: function(data) {
+                $("#recently-wanted").html("");
+                var html = "";
+                var a = "";
+                if (data.length > 2) {
+                    a = data.length - 2;
+                } else {
+                    a = 0;
+                }
+                
+                for (let i = data.length - 1; i>=a; i--) {
+                        html += `
+                        <div class="col-lg-4 col-md-6 col-sm-9">
+                            <div class="rounded bg-dark overflow-hidden pb-4">
+                                <img class="img-fluid mb-4" style="float: left; width: 100%; height: 350px; object-fit: cover;" src="images/wanted/`+data[i].image+`" alt="">
+                                <div style="margin-left: 20px; margin-right: 20px;">
+                                    <span class="text-danger"><strong>WANTED</strong></span><br>
+                                    <span class="text-light"><strong>Name:</strong> `+data[i].first_name + " " + data[i].last_name+`</span><br>
+                                    <span class="text-light"><strong>Crime:</strong> `+data[i].description+`</span>
+                                </div>
+                            </div>
+                        </div>
+                        `;
+                    
+                    
+                    $("#recently-wanted").html(html);
+                }
+            }
+        });
+
+        $.ajax({
+            url: 'rest/missing',
+            type: 'GET',
+            beforeSend: function (xhr) {
+                xhr.setRequestHeader("Authorization", localStorage.getItem("token"));
+              },
+            success: function(data) {
+                $("#missing-people").html("");
+                var html = "";
+                var a = 0;
+                if (data.length > 2) {
+                    a = data.length - 2;
+                } else {
+                    a = 0;
+                }
+                
+                for (let i = data.length - 1; i>=a; i--) {
+                    
+                    
+                    var dateStr = data[i].last_time_seen;
+                    var date = new Date(dateStr);
+                    var options = { month: 'short', day: 'numeric', year: 'numeric' };
+                    var formattedDate = date.toLocaleDateString('en-US', options);
+                    if (data[i].status != "found") {
+                        
+                            html += `
+                            <div class="col-lg-4 col-md-6 col-sm-9">
+                                <div class="rounded bg-dark overflow-hidden pb-4">
+                                    <img class="img-fluid mb-4" style="float: left; width: 100%; height: 350px; object-fit: cover;" src="images/missing/`+data[i].image+`" alt="">
+                                    <div style="margin-left: 20px; margin-right: 20px;">
+                                        <span class="text-info"><strong>MISSING</strong></span><br>
+                                        <span class="text-light"><strong>Name:</strong> `+data[i].first_name + " " + data[i].last_name+`</span><br>
+                                        <span class="text-light"><strong>Disappearance:</strong> `+data[i].last_place_seen+ " - " + formattedDate + `</span>
+                                    </div>
+                                </div>
+                            </div>
+                            `;
+                        }
+                    
+                    $("#missing-people").html(html);
+            }
+        }});
+    
+    </script>
+</body>
+
+<div class="modal fade" id="addReportsModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background-image: url(images/bg3.png); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;" id="reportMessage">
+            <form id="addReportsForm">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark">REPORT INFORMATION</h5><br>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body row g-3">
+                    <p class="text-danger">Use this form to contact us or report information.
+                        <br><strong>Submit a tip, report a threat, online scam, fraud, or crime</strong></p>
+                    <div class="col-6">
+                        <div class="form-floating">
+                            <input type="text" name="first_name" class="form-control" id="first_name" placeholder="First Name">
+                            <label for="first_name">First Name</label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-floating">
+                            <input type="text" name="last_name" class="form-control" id="last_name" placeholder="Last Name">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-floating">
+                            <input type="datetime" name="date_of_birth" class="form-control" id="date_of_birth" placeholder="yyyy-MM-dd">
+                            <label for="date_of_birth" style="font-size: 14px;">Date of Birth (yyyy-MM-dd)</label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-floating">
+                            <input type="text" name="phone" class="form-control" id="phone" placeholder="123-456-7890">
+                            <label for="phone">Phone</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input type="email" name="email" class="form-control" id="email" placeholder="Email">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-floating">
+                            <input type="text" name="city" class="form-control" id="city" placeholder="City">
+                            <label for="city">City</label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-floating">
+                            <input type="text" name="country" class="form-control" id="country" placeholder="Country">
+                            <label for="country">Country</label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-floating">
+                            <input type="text" name="zip" class="form-control" id="zip" placeholder="ZIP">
+                            <label for="zip">ZIP</label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-floating">
+                            <select class="form-select" name="category" id="category">
+                                <option value="terrorism">Terrorism</option>
+                                <option value="cyber-crime">Cyber Crime</option>
+                                <option value="public-corruption">Public Corruption</option>
+                                <option value="civil-rights">Civil Rights</option>
+                                <option value="organized-crime">Organized Crime</option>
+                                <option value="drug-trafficking">Drug Trafficking</option>
+                                <option value="missing-person">Missing Person</option>
+                                <option value="wanted-person">Wanted Person</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="category">Category</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <textarea class="form-control" name="description" placeholder="Leave a message here" id="description"
+                                style="height: 130px"></textarea>
+                            <label for="description">Description</label>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary text-white" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-dark ">Save changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModalN" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content bg-dark">
+                <div class="modal-body">
+                  <div class="list-group text-light" id="news-item">
+  
+                  </div>
+                  <div class="form-group">
+                    <input type="hidden" name="id" id="id" class="form-control required" placeholder="Enter description">
+                </div>
+                  
+                </div>
+                
+        </div>
+    </div>
+  </div>
+
+<script>
+    ReportsServiceIndex.init();
+    NewsletterService.init();
+    NewsServiceIndex.init();
+</script>
+
+</html>
